@@ -3,14 +3,15 @@
 
 
 def main(args):
-   # a = 10
     a = int(input("Podaj liczbę: "))
-   # b = 5
     b = int(input("Podaj liczbę: "))
-    if a > b 
-        print(a)
+     
+    if a > b:
+        print("a > b")
+    elif a < b:
+        print("a < b")
     else:
-        print(b)
+        print("a = b")
  
     return 0
 

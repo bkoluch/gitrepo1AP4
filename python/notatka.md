@@ -14,3 +14,8 @@ algorytm liniowy
 3.suma = a + b
 4.wydrukuj suma
 
+Pętla
+
+
+zmienna iteracyjna - 
+
