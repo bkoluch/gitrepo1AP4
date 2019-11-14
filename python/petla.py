@@ -2,25 +2,34 @@
 # -*- coding: utf-8 -*-
 
 
-def sumuj_parzyste():
-        suma = 0
-    for i in range(0, 101 , 2):
+def sumuj_parzyste(start, stop):
+    suma = 0
+    for i in range(start, stop+1, 2):
       #  liczba = int(input("Podaj liczbę: " ))
         suma = suma + i
         
     print(suma)
     
+def drukuj_nieparzyste(start, stop):
+    if start % 2 == 0:
+        start = start + 1
+    for i in range(start, stop+1, 2):
+        print(i)
+    
+
 
 
 def main(args):
-    sujmuj_parzyste
+    start = int(input("Podaj początek zakresu"))
+    stop = int(input("Podaj koniec zakresu"))
+    drukuj_nieparzyste(start, stop)
     
-  |#  suma = 0
-  #  for i in range(3):
+  #  suma = 0
+  #  for i in range(3): 
   #      liczba = int(input("Podaj liczbę: " ))
    #     suma = suma + liczba 
         
-    print(suma)
+  #  print(suma)
         
     return 0
 
