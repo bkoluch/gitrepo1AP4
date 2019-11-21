@@ -3,7 +3,8 @@
 
 def main(args):
     
-   
+    n = int(input("Podaj liczbę początkową: "))
+    m = int(input("Podaj liczbę końcową: "))
     n = m = 0 
     while n < 1:
             start = int(input("Podaj liczbę  1 : "))
