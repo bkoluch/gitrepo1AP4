@@ -16,10 +16,12 @@ def pobierzOceny():
 def liczSrednia(oceny):
     print(sum(oceny) / len (oceny))
 
+
 def main(args):
     oceny = pobierzOceny()
     liczSrednia(oceny)
     return 0
+
 
 if __name__ == '__main__':
     import sys
