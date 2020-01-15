@@ -24,24 +24,22 @@ void pobierzOceny(int tb[], int n) {
 float liczSrednia (int tb[], int n) {
     int suma = 0;
     for (int i = 0; i < n; i++) {
-        cout << tb[i] <," ";
+        //cout << tb[i] << " ";
         suma = suma + tb[i];
+    }
+    return (float)suma / (float)n;
     
 }
 
-void drukuj (int tb[], int n) {
-    for (int i = 0; i < n;i++){
-        cout << tb[i] << " ";
-    }
-}
-
+    
 int main(int argc, char **argv) {
     int n;
     cout << "Ile podasz ocen?";
     cin >> n;
     int oceny[n];
     pobierzOceny(oceny , n);
-    
+   // float srednia = liczSrednia(oceny , n);
+    cout << "Srednia ocen: " << liczSrednia(oceny , n) << endl;
 	return 0;
 
 
