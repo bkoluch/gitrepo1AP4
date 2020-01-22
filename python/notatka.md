@@ -19,3 +19,21 @@ Pętla
 
 zmienna iteracyjna - 
 
+
+
+
+
+
+                Python
+zasięgo globalny
+zmienna globalna
+
+zasieg lokalny 
+zmienna lokalna 
+
+voud drukuj () {;}
+int sumuj () {return a;]
+int sumuj(int a, inb) {return suma; } // przekazanie przez wartosc
+void oblicz (int &liczba) {LICZBA = 5} // przekazanie przez referencje 
+
+
