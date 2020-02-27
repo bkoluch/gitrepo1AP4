@@ -26,11 +26,11 @@ long silnia_it(int n) {
     return s;
     
 }
-;long silnia_re(int n) { 
-    if (n==0)
-        return 1;
+long silnia_re(int n) { 
+    if (n==0) {
+        return 1; }
     else 
-        return silnia_re(n-1) * n;
+        return silnia_re(n-1) * n; 
     }
     
 
@@ -40,9 +40,8 @@ int main(int argc, char **argv)
     int n; 
     cout << "Pobierz liczbe: ";
     cin >> n;
-    cout << n << "! = " <<  silnia_it(n);
-    cout << endl;
-    cout << n << "! = " << silnia_re(n);
+    cout << n << "! = " <<  silnia_it(n) << endl;
+    cout << n << "! = " << silnia_re(n) << endl;
 	return 0;
 }
 
